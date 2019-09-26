@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+			<title>COMP20030 PROJECT</title>
+	<meta charset ="utf-8"/>
+	<script src="diet.js"></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="media/favicon.png">
+
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	
+	<link rel="stylesheet" href="stylesheet.css" type= "text/css"/>
+	<meta name="viewport" content="width=device-width,initial-scale =1.0"/>
+</head>
+
+<body class="body">
+	
+	<header class = "mainheader">
+	<div class="container">
+			<a href="mainpage.html">
+			<img class ="photo"  src ="media/logoT.png" alt ="Club Logo,[sun bleached wave]">
+			<div class="imagetext">RowNaEire</div></a>
+		</div>
+		<nav><ul>
+			<li><a href="mainpage.html">Home</a></li>
+			<li><a href="StartingOff.html">Starting Off</a></li>
+			<li><a href="RowingMachine.html">Rowing Machine</a></li>
+			<li><a href="courses.html">Courses</a></li>
+			<li class = "active"><a href="diet.html">Diet</a></li>
+			<li><a href="advanced.html">Advanced</a></li>
+			<li><a href="contact us.html">Contact Us</a></li>
+		</ul></nav>
+	</header>
+	
+	<div class ="maincontent">
+		<div class ="contentb">
+			<article class ="diet">
+			<header>
+				<h2><a href ="#" title ="Starting Off">Diet Diet Diet</a></h2>
+			</header>
+			<footer>
+				<p class = "post-info">For those who love food and hate themselves<br>written by <br>J.M></p>
+			</footer>
+			<p class ="bmitext">
+				<b>What is it?</b><br>
+				BMI should only be used as a rough guide – because it doesn't take bone or muscle mass into account. Therefore, if you have big bones or a lot of muscle,
+				you'll weigh more and so your BMI result may be inaccurate.<br>
+				<b>Underweight</b><br>
+				18< <br>
+				<b>Normal weight</b><br>
+				18.5-24.9<br>
+				<b>Overweight</b><br>     
+				25-29.9<br>
+				<b>Obesity</b><br>           
+				30.0+<br>
+				</p>
+			<content class ="bmi">
+				<p>
+					<b>BODY MASS INDEX</b><br>
+					Sex:
+						<input type="radio" name="Sex" value="male" checked> Male
+						<input type="radio" name="gender" value="female"> Female<br>
+						Mass in Kg:<br>
+						  <input class ="bmi-input" name ="Mass" id="Mass" type="text" maxlength ="3"/><br>
+						  Height in M:<br>
+						  <input class ="bmi-input" name ="Height" id="Height" type="text"/><br>
+						  <button class="button2" onClick="BMI('Mass','Height','Result')" >Calculate</button><br><br>
+						  <input class ="bmi-output" type="number" name="Result" id="Result"/>
+						  
+					</form>
+					<br>
+				</p>
+				<p>
+					<b>Preworkout Meals</b><br>
+					To maximize a rower's athletic performance, getting a nutritious preworkout meal and snack is a must. 
+					Sports Dietitians Australia recommends eating a high-carb meal -- such as breakfast cereal with low-fat milk, 
+					an English muffin with jam or fruit with low-fat yogurt -- two to four hours before a competition. St. Lawrence University
+					suggests eating 100 to 200 calories -- such as an energy breakfast bar, sports drink, banana or a bagel -- 30 to 45 minutes before early-morning workouts.
+				</p>
+			
+				<p>
+					<b>Post-Workout Nutrition</b><br>
+					To properly recover, eat a carb-containing snack within an hour and a well-balanced meal within two to four hours of a rowing event.
+					Post-workout snacks may include sports drinks, sandwiches, fruit or cereal bars, notes Sports Dietitians Australia. St. Lawrence University suggests 
+					eating 15 to 20 grams of protein with each carb-containing small meal or snack. Protein-rich choices include yogurt, cottage cheese, milk, nuts, seeds, 
+					peanut butter, lean meats, legumes, eggs, chicken and soy products.
+				</p>
+				<p>Meal planner is available to download below</p>
+				
+				<a href="media/mealplanner.png" download>
+				<button class="button">Download</button>
+				</a>
+			</content>
+			</article>
+		
+		</div>
+		
+		<footer class="mainfooter">
+			<p>Copywright &copy; J.M <br>
+			<a href="mainpage.html">Home : = RowNaEire.com</a><br>
+			<a href="contact us.html">Contact Us:</a>
+			</p>
+		</footer>
+	
+
+</body>
+		
+</html>

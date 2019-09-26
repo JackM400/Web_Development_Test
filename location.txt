@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>COMP20030 PROJECT</title>
+	<meta charset ="utf-8"/>
+	
+	<link rel="stylesheet" href="stylesheet.css" type= "text/css"/>
+	<meta name="viewport" content="width=device-width,initial-scale =1.0"/>
+</head>
+
+<body class="body">
+	
+	<header class = "mainheader">
+		<div class="container">
+			<a href="mainpage.html">
+			<img class ="photo"  src ="media/logoT.png" alt ="Club Logo,[sun bleached wave]">
+			<div class="imagetext">RowNaEire</div></a>
+		</div>
+		<nav><ul>
+			<li><a href="mainpage.html">Home</a></li>
+			<li><a href="StartingOff.html">Starting Off</a></li>
+			<li><a href="RowingMachine.html">Rowing Machine</a></li>
+			<li><a href="#">Courses</a></li>
+			<li class = "active"><a href="diet.html">Diet</a></li>
+			<li><a href="#">Advanced</a></li>
+			<li><a href="contact us.html">Contact Us</a></li>
+		</ul></nav>
+	</header>
+	
+	<div class ="maincontent">
+		<div class ="contentb">
+			<article class ="diet">
+			<header>
+				<h2><a href ="#" title ="Starting Off">Advanced Technique</a></h2>
+			</header>
+			<footer>
+				<p class = "post-info">Feel the burn<br><br></p>
+			</footer>
+			<content class ="bmi">
+				<p>
+					
+					<br>
+				</p>
+				<p>
+					<b>Proper Sculling Technique</b><br<>
+					<ol>
+					<li>-First, remember that you need to sustain a certain amount of pressure on the oars just before the release. Maintaining this pressure helps sustain the cavity or "divot" of water just behind the blade from which it can be easily plucked from the water.</li><br>
+					<li>-Second, make sure you are finishing with the oar handles at the right position both in relation to the boat and to your body. Remember that there is an ideal angle from which the oars can be easily taken from the water. Beyond this point the oars will feel like 
+					they are getting stuck, or caught, by the moving water behind the blade. If this is happening, you should try moving your foot stretchers further away from you, toward the stern.</li><br>
+					<li>-Lastly, remember that if you are doing both of the above correctly, you dont need to execute a "square blade" finish one where the blade comes out of the water completely before it is feathered. For some rowers and coaches, this statement may be somewhat sacrilegious, 
+					but this is my personal observation. While you certainly shouldn't feather while the oar is still under water, the blade really only needs to be past the halfway point of clearing the waters surface before you can start feathering. Along these lines, its also my opinion that
+					the endless square blade drills coaches put upon their athletes (in both sweeping and sculling) better serve to develop a good catch than a correct finish. Needless to say, if you are still thinking about your hands making a "box-like" movement around the waist, give it up!</li><br>
+				</ol></p>
+			
+				<p class ="video">
+					<iframe width="854" height="480" src="https://www.youtube.com/embed/9wNotVkH_-k?ecver=1" frameborder="0"
+					allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</p>
+				
+				<button class="button">Download</button>
+			
+			</content>
+			</atricle>
+		
+		</div>
+		
+		<footer class="mainfooter">
+			<p>Copywright &copy; J.M <br>
+			<a href="mainpage.html">Home : = RowNaEire.com</a><br>
+			<a href="contact us.html">Contact Us:</a>
+			</p>
+		</footer>
+	
+
+</body>
+		<script type ="text/javascript">
+			
+		</script>
+		
+</html>
